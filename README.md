@@ -42,7 +42,3 @@ You can also ask in plain language ("review my SOP at ~/sop.docx"), and Claude w
 - `.docx` files are converted with `textutil` (macOS) or `pandoc`, so one of them must be installed on other platforms.
 - The agent treats unpublished and internal documents as confidential. Web searches use general topic terms only, never manuscript text or titles.
 - It reports what it can verify. Facts about people, papers and links are flagged as unverified unless checked.
-
-## License
-
-MIT
