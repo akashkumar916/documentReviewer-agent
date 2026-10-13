@@ -19,8 +19,8 @@ Copy the two files into your Claude Code config folder:
 git clone https://github.com/akashkumar916/claude-document-reviewer.git
 cd claude-document-reviewer
 mkdir -p ~/.claude/agents ~/.claude/commands
-cp agents/document-reviewer.md ~/.claude/agents/
-cp commands/docreview.md ~/.claude/commands/
+cp document-reviewer.md ~/.claude/agents/
+cp docreview.md ~/.claude/commands/
 ```
 
 For one project only, copy them into that project's `.claude/agents/` and `.claude/commands/` instead.
